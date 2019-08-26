@@ -1,0 +1,6 @@
+#   To update, run:
+#    make upgrade
+#         :)
+click==6.7            
+first==2.0.1              
+pip-tools==2.0.2
