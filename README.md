@@ -15,7 +15,7 @@ Step 1:
   - sudo apt install git
 
 Step 2:
-  - docker info | grep -i 'storage driver'                  #the output here must be "overlay2"
+  - docker info | grep -i 'storage driver'      -------> the output here must be "overlay2"
   - mkdir openedx
   - cd openedx
 
@@ -38,7 +38,7 @@ Step 5:
 
 # Run your Open_edX (Devstack) Platform
 Step 6:                                                     
-  - sudo docker-compose up   -------> here you must be run this command in the path where docker-compose file exist
+  - sudo docker-compose up       -------> here you must be run this command in the path where docker-compose file exist
   - 
 
 Step 7:
