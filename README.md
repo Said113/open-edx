@@ -35,10 +35,13 @@ Step 5:
   - make dev.clone
   - make dev.provision
   
-
 # Run your Open_edX (Devstack) Platform
 Step 6:                                                     
   - sudo docker-compose up       -------> here you must be run this command in the path where docker-compose file exist
-  - 
+  - go to your browser and set this URL [127.0.0.1:18000](127.0.0.1:18000)
 
+# Stop your Open_edX (Devstack) Platform
 Step 7:
+  - sudo docker-compose down     -------> here you must be run this command in the path where docker-compose file exist
+
+
