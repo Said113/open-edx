@@ -47,10 +47,10 @@ Step 6:
 ### to access your LMS 
   - go to your browser and set this URL http://localhost:18010/
   
-### to access your Django ADMIN
+### to access your Django ADMIN (Django Administration)
   - go to your browser and set this URL http://localhost:18000/admin/
-  - user is: edx
-  - motepass is : edx
+  - Username is: edx
+  - Password is : edx
 
 # Stop your Open_edX (Devstack) Platform
 Step 7:
