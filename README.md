@@ -38,7 +38,19 @@ Step 5:
 # Run your Open_edX (Devstack) Platform
 Step 6:                                                     
   - sudo docker-compose up       -------> here you must be run this command in the path where docker-compose file exist
-  - go to your browser and set this URL 127.0.0.1:18000
+  - sudo make dev.up             -------> i recommend to use this command to Run your Platform 
+  
+# Access to your Open_edX (APP) 
+### to access your CMS 
+  - go to your browser and set this URL http://localhost:18000/ 
+  
+### to access your LMS 
+  - go to your browser and set this URL http://localhost:18010/
+  
+### to access your Django ADMIN
+  - go to your browser and set this URL http://localhost:18000/admin/
+  - user is: edx
+  - motepass is : edx
 
 # Stop your Open_edX (Devstack) Platform
 Step 7:
