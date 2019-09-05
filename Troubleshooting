@@ -1,3 +1,6 @@
-#
-#
-#
+# Troubleshooting Open edX
+
+
+- in the devstack there is no files names like this "lms.env.json" & "cms.env.json" because devstack is not like production deployment.
+- in the devstack there is config file & its name "devstack_docker.py" for both cms directory and lms directory.
+- 
